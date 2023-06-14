@@ -23,13 +23,13 @@ const Location = ({location, setLocation}) => {
     }
 
   return (
-    <section className='hero'>
+    <section className='hero grid'>
     
         {/* //? Input de busqueda*/}
         <form onSubmit={handleSubmit} className='justify-center text-center'>
 
         <div>
-            <img src="/public/images/logo.png" alt="" />
+            <img src="/images/logo.png" alt="" />
         </div>
        
             <input value={controlled} onChange={handleChangeInputControlled} id="newLocation" className='search_1 bg-black text-white ' placeholder="Type a location Id..." type="text" />

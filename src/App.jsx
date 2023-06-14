@@ -20,7 +20,7 @@ useEffect(() => {
 
   return (
 
-    <main className=' min-h-screen text-white bg-[url("/public/images/image.jpg")]'>
+    <main className=' min-h-screen text-white bg-[url("/images/image.jpg")]'>
 
         <Location location={location} setLocation={setLocation}/>
 

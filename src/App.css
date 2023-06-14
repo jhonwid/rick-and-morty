@@ -1,0 +1,56 @@
+.App {
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: grid;
+    justify-items: center;
+  }
+
+/* main {
+    background-image: url(/public/images/image.jpg);
+    max-width: 100%; 
+    width: 100%; 
+} */
+
+/* .hero {
+    background-image: url(/public/images/logo.png);
+  
+}  */
+
+/* .page {
+    background-image: url(/public/images/page.png)
+} */
+
+.resident_Info {
+    border: 2px solid rgb(92, 238, 92);
+}
+
+.search_1 {
+    border: 2px solid rgb(92, 238, 92);
+}
+
+.button_1 {
+    border: 2px solid rgb(92, 238, 92);
+}
+
+.statusLive {
+    border: 2px solid rgb(92, 238, 92);
+    background: rgba(2, 10, 2, 0.8);
+    border: 2px solid #8EFF8B;
+    border-radius: 0px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 30px;
+}
+
+.residentDataList {
+padding: 2px;
+}
+
+.images_list {
+    border-bottom: 2px solid rgb(92, 238, 92);
+}
+
+.list_one {
+    border-top: 2px solid rgb(54, 88, 54)
+}
